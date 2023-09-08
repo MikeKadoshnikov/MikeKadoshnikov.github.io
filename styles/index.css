@@ -1,0 +1,64 @@
+html * {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategrey;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#netid h2 {
+    text-align: center;
+    background-color: yellow;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th.tuesthur, td.tuesthur {
+    color: #e0f6ef;
+    background-color: #6ab099;
+}
+
+#right {
+    float: right;
+    width: 42.5%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    height: 1050px;
+    text-align: justify;
+}
+
+#left {
+    float: left;
+    width: 42.5%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    height: 1050px;
+    text-align: justify;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#left img {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+img:hover {
+    opacity: 70%;
+}

@@ -2,119 +2,145 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"> 
+        <link href="styles/index.css" type="text/css" rel="stylesheet">
         <title>Hello Server</title> 
     </head>
     <body>
         <h1>Michael Kadoshnikov</h1>
-        <h2>Net ID: z55w637</h2>
+        <div id="netid"><h2>Net ID: z55w637</h2></div>
         <a href="https://mikekadoshnikov.github.io/">My Github Pages</a>
-        <h2>Class Schedule</h2>
-        <table>
-            <tr>
-                <th></th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
-            <tr>
-                <td>8:00</td>
-                <td>CSCI 460</td>
-                <td></td>
-                <td>CSCI 460</td>
-                <td></td>
-                <td>CSCI 460</td>
-            </tr>
-            <tr>
-                <td>9:00</td>
-                <td></td>
-                <td>work</td>
-                <td></td>
-                <td>work</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>10:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>11:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>12:00</td>
-                <td>CSCI 466</td>
-                <td></td>
-                <td>CSCI 466</td>
-                <td></td>
-                <td>CSCI 466</td>
-            </tr>
-            <tr>
-                <td>1:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>2:00</td>
-                <td>CSCI 440</td>
-                <td></td>
-                <td>CSCI 440</td>
-                <td></td>
-                <td>CSCI 440</td>
-            </tr>
-            <tr>
-                <td>3:00</td>
-                <td>CSCI 432</td>
-                <td></td>
-                <td>CSCI 432</td>
-                <td></td>
-                <td>CSCI 432</td>
-            </tr>
-            <tr>
-                <td>4:00</td>
-                <td>CSCI 331</td>
-                <td></td>
-                <td>CSCI 331</td>
-                <td></td>
-                <td>CSCI 331</td>
-            </tr>
-            <tr>
-                <td>5:00</td>
-                <td></td>
-                <td></td>
-                <td>CSCI 494</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-        <h2>Previous Classes</h2>
-        <ul>
-            <li>CSCI 112</li>
-            <li>CSCI 127</li>
-            <li>CSCI 132</li>
-            <li>CSCI 215CS</li>
-            <li>CSCI 232</li>
-            <li>CSCI 246</li>
-            <li>CSCI 305</li>
-            <li>CSCI 338</li>
-            <li>CSCI 351</li>
-            <li>CSCI 366</li>
-            <li>CSCI 476</li>
-            <li>CSCI 494</li>
-            <li>ESOF 322</li>
-            <li>CS 145RA</li>
-        </ul>
+        <br>
+        <br>
+        <div id="container">
+            <div id="left">
+                <h2>Questionaire: Happiness Data</h2>
+                <form action="https://www.cs.montana.edu/users/h48c334/form-viewer.php" method="GET">
+                    <label for="slider">Happiness Level</label>
+                    <input type="range" name="Happiness">
+                    <br>
+                    <br>
+                    <label for="slider">Bed Time</label>
+                    <input type="time" name="Bed Time">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit Data">
+                </form>
+                <h2>My Interests: Space and Calisthetics</h2>
+                <a href="https://en.wikipedia.org/wiki/Calisthenics"><img src="images/calesthetics.jpg"></a>
+                <a href="https://en.wikipedia.org/wiki/Outer_space"><img src="images/space.jpg"></a>
+            </div>
+            
+
+            <div id="right">
+                <h2>Class Schedule</h2>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Monday</th>
+                        <th class="tuesthur">Tuesday</th>
+                        <th>Wednesday</th>
+                        <th class="tuesthur">Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                    <tr>
+                        <td>8:00</td>
+                        <td>CSCI 460</td>
+                        <td></td>
+                        <td>CSCI 460</td>
+                        <td></td>
+                        <td>CSCI 460</td>
+                    </tr>
+                    <tr>
+                        <td>9:00</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00</td>
+                        <td>CSCI 466</td>
+                        <td class="tuesthur">work</td>
+                        <td>CSCI 466</td>
+                        <td class="tuesthur">work</td>
+                        <td>CSCI 466</td>
+                    </tr>
+                    <tr>
+                        <td>1:00</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                        <td class="tuesthur">work</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2:00</td>
+                        <td>CSCI 440</td>
+                        <td class="tuesthur">work</td>
+                        <td>CSCI 440</td>
+                        <td class="tuesthur">work</td>
+                        <td>CSCI 440</td>
+                    </tr>
+                    <tr>
+                        <td>3:00</td>
+                        <td>CSCI 432</td>
+                        <td class="tuesthur">work</td>
+                        <td>CSCI 432</td>
+                        <td class="tuesthur">work</td>
+                        <td>CSCI 432</td>
+                    </tr>
+                    <tr>
+                        <td>4:00</td>
+                        <td>CSCI 331</td>
+                        <td></td>
+                        <td>CSCI 331</td>
+                        <td></td>
+                        <td>CSCI 331</td>
+                    </tr>
+                    <tr>
+                        <td>5:00</td>
+                        <td></td>
+                        <td></td>
+                        <td>CSCI 494</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+                <h2>Previous Classes</h2>
+                <ul>
+                    <li>CSCI 112</li>
+                    <li>CSCI 127</li>
+                    <li>CSCI 132</li>
+                    <li>CSCI 215CS</li>
+                    <li>CSCI 232</li>
+                    <li>CSCI 246</li>
+                    <li>CSCI 305</li>
+                    <li>CSCI 338</li>
+                    <li>CSCI 351</li>
+                    <li>CSCI 366</li>
+                    <li>CSCI 476</li>
+                    <li>CSCI 494</li>
+                    <li>ESOF 322</li>
+                    <li>CS 145RA</li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
